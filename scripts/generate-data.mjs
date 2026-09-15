@@ -98,6 +98,17 @@ R('A01','arroz_pollo_verduras','Arroz de pollo y verduras','arroz',3,45,25,[I('a
 R('A02','arroz_costilla','Arroz de costilla','arroz',3,50,28,[I('arroz_redondo',320),I('costilla_cerdo',800),I('verdura_variada',500),I('tomate_triturado',250),I('agua',950,'ml')],['Dorar la costilla y verdura.','Reservar carne y verduras antes del arroz.','Añadir agua y arroz.'],{equipment:['paellera'],leftover_outputs:[{output_id:'leftover_a02_tupper',name:'Costilla y verduras sin arroz',servings:1}],tags:['domingo'],time_confidence:'estimated'}),
 R('A03','arroz_magro','Arroz de magro','arroz',3,50,28,[I('arroz_redondo',320),I('magro_cerdo',700),I('verdura_variada',500),I('tomate_triturado',250),I('agua',900,'ml')],['Dorar magro y verdura.','Añadir sofrito, agua y arroz.'],{equipment:['paellera'],tags:['domingo'],time_confidence:'estimated'})
 ];
+const imageForCode=code=>{
+  if(['D08','D09','D11'].includes(code))return 'yogur-fruta';
+  if(code.startsWith('D')||['B04','P15','P16','P17','P18','P21'].includes(code))return 'huevos-tomate';
+  if(code==='C01')return 'crema-calabacin'; if(code==='C02'||code==='C03')return 'crema-calabaza';
+  if(['P01','P02','P03','P04'].includes(code))return 'pollo-horno';
+  if(['P05','P06','P07','P08','P09','P13','P19','P20'].includes(code))return 'lomo-cebolla';
+  if(['P10','P11'].includes(code))return 'merluza-tomate'; if(['P12','P14','C04'].includes(code))return 'ensalada-tomate';
+  if(code.startsWith('E'))return 'empanada'; if(code==='G03')return 'fabada'; if(code.startsWith('G'))return 'cocido';
+  if(code.startsWith('A'))return 'arroz'; return 'ensalada-tomate';
+};
+for(const r of recipes)r.image_path=`assets/images/recipes/${imageForCode(r.source_code)}.webp`;
 
 const meal = (id, label, refs, servings, source='cook') => ({id,label,recipe_ids:refs,servings,source,status:'pending'});
 const daysRaw = [

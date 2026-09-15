@@ -3,9 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#f6f4ee">
+  <meta name="theme-color" content="#253f35">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mesa 21">
   <meta name="description" content="Plan doméstico de alimentación, compras y aprovechamiento para 21 días.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
   <title>Mesa 21 · Plan doméstico</title>
   <link rel="stylesheet" href="css/styles.css">
@@ -14,7 +19,7 @@
   <div id="app-shell" class="app-shell">
     <aside class="sidebar" aria-label="Navegación principal">
       <a class="brand" href="#/inicio" aria-label="Mesa 21, inicio">
-        <span class="brand-mark">21</span><span><strong>Mesa</strong><small>cocina doméstica</small></span>
+        <span class="brand-mark"><span>21</span></span><span><strong>Mesa 21</strong><small>tu cocina organizada</small></span>
       </a>
       <nav id="main-nav" class="main-nav"></nav>
       <div class="sidebar-foot">
@@ -23,12 +28,13 @@
       </div>
     </aside>
     <header class="mobile-header">
-      <a class="brand" href="#/inicio"><span class="brand-mark">21</span><strong>Mesa</strong></a>
+      <a class="brand" href="#/inicio"><span class="brand-mark"><span>21</span></span><strong>Mesa 21</strong></a>
       <button id="mobile-menu" class="icon-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
     </header>
     <main id="app" class="main" tabindex="-1">
       <div class="loading-card"><span class="loader"></span><p>Preparando tu plan…</p></div>
     </main>
+    <nav id="mobile-bottom-nav" class="mobile-bottom-nav" aria-label="Navegación móvil"></nav>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <dialog id="meal-dialog" class="dialog"></dialog>
