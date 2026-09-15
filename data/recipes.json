@@ -1,0 +1,3506 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "recipe_sofrito_mediterraneo",
+      "source_code": "B01",
+      "name": "Sofrito mediterráneo",
+      "category": "base",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 4,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Picar cebolla, pimiento y ajo.",
+        "Pochar 15 minutos.",
+        "Añadir tomate y reducir 30–35 minutos."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 15,
+      "equipment": [
+        "cuchillo",
+        "sartén"
+      ],
+      "storage_days": 4,
+      "freezable": true,
+      "tags": [
+        "batch-cooking",
+        "base"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "prepared_sofrito",
+          "name": "Sofrito preparado",
+          "quantity": 1400,
+          "unit": "g",
+          "recommended_portions": [
+            250,
+            400
+          ]
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_pisto_grande",
+      "source_code": "B02",
+      "name": "Pisto grande",
+      "category": "base",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_berenjena",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar cebolla y pimiento.",
+        "Incorporar berenjena y calabacín.",
+        "Añadir tomate y reducir."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 18,
+      "equipment": [
+        "cuchillo",
+        "cazuela"
+      ],
+      "storage_days": 4,
+      "freezable": true,
+      "tags": [
+        "batch-cooking",
+        "guarnición"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "prepared_pisto",
+          "name": "Pisto preparado",
+          "servings": 6
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_verduras_asadas",
+      "source_code": "B03",
+      "name": "Bandeja de verduras asadas",
+      "category": "base",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_berenjena",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cortar grande y aliñar.",
+        "Hornear a 200 °C durante 35–40 minutos."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 10,
+      "equipment": [
+        "horno",
+        "bandeja"
+      ],
+      "storage_days": 4,
+      "freezable": true,
+      "tags": [
+        "batch-cooking",
+        "horno"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "prepared_verduras_asadas",
+          "name": "Verduras asadas",
+          "servings": 6
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_huevos_cocidos",
+      "source_code": "B04",
+      "name": "Huevos cocidos por tandas",
+      "category": "base",
+      "servings": 8,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 8,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocer 10 minutos desde que hierva el agua.",
+        "Enfriar y refrigerar."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 4,
+      "equipment": [
+        "cazo"
+      ],
+      "storage_days": 5,
+      "freezable": false,
+      "tags": [
+        "batch-cooking"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_huevos_tomate",
+      "source_code": "D01",
+      "name": "Huevos con tomate",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocinar los huevos y servir con tomate aliñado."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_revuelto_jamon",
+      "source_code": "D02",
+      "name": "Revuelto de jamón",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_jamon",
+          "quantity": 35,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Batir y cuajar brevemente con el jamón."
+      ],
+      "total_time_minutes": 7,
+      "active_time_minutes": 7,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tortilla_queso",
+      "source_code": "D03",
+      "name": "Tortilla de queso",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 30,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cuajar la tortilla con el queso."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tortilla_sobrasada",
+      "source_code": "D04",
+      "name": "Tortilla de sobrasada",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_sobrasada",
+          "quantity": 25,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 100,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cuajar la tortilla usando poca sobrasada."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_chistorra_huevo",
+      "source_code": "D05",
+      "name": "Chistorra con huevo",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_chistorra",
+          "quantity": 50,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar la chistorra.",
+        "Cuajar los huevos."
+      ],
+      "total_time_minutes": 12,
+      "active_time_minutes": 10,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "ocasional"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_panceta_huevo_tomate",
+      "source_code": "D06",
+      "name": "Panceta con huevo y tomate",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_panceta",
+          "quantity": 55,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 125,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar la panceta sin aceite.",
+        "Cocinar el huevo en la misma sartén y servir con tomate."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 12,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "ocasional"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_jamon_queso_tomate",
+      "source_code": "D07",
+      "name": "Jamón, queso y tomate",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_jamon",
+          "quantity": 50,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 40,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cortar y servir aliñado."
+      ],
+      "total_time_minutes": 5,
+      "active_time_minutes": 5,
+      "equipment": [
+        "cuchillo"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "sin-cocción",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_yogur_platano_nueces",
+      "source_code": "D08",
+      "name": "Yogur, plátano y nueces",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_platano",
+          "quantity": 110,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_nueces",
+          "quantity": 15,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Mezclar y servir."
+      ],
+      "total_time_minutes": 2,
+      "active_time_minutes": 2,
+      "equipment": [
+        "bol"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "sin-cocción"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": "Perfil gimnasio: 250 g de yogur y avena si entrena."
+    },
+    {
+      "id": "recipe_yogur_fruta_nueces",
+      "source_code": "D09",
+      "name": "Yogur, manzana o pera y nueces",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_manzana",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_nueces",
+          "quantity": 15,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Trocear la fruta y mezclar."
+      ],
+      "total_time_minutes": 3,
+      "active_time_minutes": 3,
+      "equipment": [
+        "bol"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "sin-cocción"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [
+        "recipe_yogur_platano_nueces"
+      ],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tostada_tomate_huevo",
+      "source_code": "D10",
+      "name": "Tostada de tomate y huevo",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_pan_integral",
+          "quantity": 50,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Tostar el pan y preparar el huevo.",
+        "Montar con tomate."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "tostador",
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": "Perfil gimnasio: dos tostadas y dos huevos."
+    },
+    {
+      "id": "recipe_avena_nocturna",
+      "source_code": "D11",
+      "name": "Avena nocturna",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_avena",
+          "quantity": 50,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_platano",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_nueces",
+          "quantity": 10,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Mezclar la noche anterior y refrigerar."
+      ],
+      "total_time_minutes": 5,
+      "active_time_minutes": 5,
+      "equipment": [
+        "tarro"
+      ],
+      "storage_days": 2,
+      "freezable": false,
+      "tags": [
+        "preparación-previa"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tosta_sobrasada_queso",
+      "source_code": "D12",
+      "name": "Tosta de sobrasada y queso",
+      "category": "desayuno",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_pan_integral",
+          "quantity": 50,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_sobrasada",
+          "quantity": 20,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 30,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Montar y tostar brevemente."
+      ],
+      "total_time_minutes": 5,
+      "active_time_minutes": 5,
+      "equipment": [
+        "tostador"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "ocasional"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_crema_calabacin",
+      "source_code": "C01",
+      "name": "Crema de calabacín",
+      "category": "crema",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 1200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_puerro",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_patata",
+          "quantity": 175,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 1000,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Rehogar la verdura.",
+        "Cubrir de agua y cocer.",
+        "Triturar."
+      ],
+      "total_time_minutes": 35,
+      "active_time_minutes": 10,
+      "equipment": [
+        "olla",
+        "batidora"
+      ],
+      "storage_days": 4,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "prepared_crema_calabacin",
+          "name": "Crema de calabacín",
+          "servings": 6
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_crema_calabaza",
+      "source_code": "C02",
+      "name": "Crema de calabaza",
+      "category": "crema",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_calabaza",
+          "quantity": 1200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_puerro",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 1000,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Rehogar.",
+        "Cubrir de agua y cocer.",
+        "Triturar."
+      ],
+      "total_time_minutes": 40,
+      "active_time_minutes": 12,
+      "equipment": [
+        "olla",
+        "batidora"
+      ],
+      "storage_days": 4,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "prepared_crema_calabaza",
+          "name": "Crema de calabaza",
+          "servings": 6
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_sopa_rapida",
+      "source_code": "C03",
+      "name": "Sopa rápida",
+      "category": "sopa",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_caldo",
+          "quantity": 1000,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_verdura_variada",
+          "quantity": 175,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_fideo",
+          "quantity": 50,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocer la verdura en el caldo 10 minutos.",
+        "Añadir fideo solo a quien lo quiera."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 8,
+      "equipment": [
+        "olla"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "aprovechamiento"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_ensalada_tomate",
+      "source_code": "C04",
+      "name": "Ensalada de tomate con atún o queso",
+      "category": "ensalada",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 650,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_atun",
+          "quantity": 160,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 165,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceitunas",
+          "quantity": 40,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cortar, elegir atún o queso y aliñar."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "cuchillo",
+        "bol"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "sin-cocción",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": "Atún y queso son alternativas, no ingredientes acumulativos."
+    },
+    {
+      "id": "recipe_judias_verdes_ajillo",
+      "source_code": "C05",
+      "name": "Judías verdes al ajillo",
+      "category": "guarnición",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 3,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocer o cocinar al vapor.",
+        "Terminar al ajillo en sartén."
+      ],
+      "total_time_minutes": 20,
+      "active_time_minutes": 10,
+      "equipment": [
+        "olla",
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [
+        "recipe_brocoli_sencillo"
+      ],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_brocoli_sencillo",
+      "source_code": "C06",
+      "name": "Brócoli sencillo",
+      "category": "guarnición",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_brocoli",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 1,
+          "unit": "diente",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocer brevemente o hacer al vapor y aliñar."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 6,
+      "equipment": [
+        "olla"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [
+        "recipe_judias_verdes_ajillo"
+      ],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_champinones_ajillo",
+      "source_code": "C07",
+      "name": "Champiñones al ajillo",
+      "category": "guarnición",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 3,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Saltear a fuego fuerte 10–12 minutos."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 12,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_jamoncitos_limon",
+      "source_code": "P01",
+      "name": "Jamoncitos de pollo al limón",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_jamoncito_pollo",
+          "quantity": 1200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_limon",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 4,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 35,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Colocar todo en una fuente.",
+        "Hornear a 190–200 °C."
+      ],
+      "total_time_minutes": 60,
+      "active_time_minutes": 10,
+      "equipment": [
+        "horno",
+        "fuente"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p01_tupper",
+          "name": "Pollo y verduras para tupper",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [
+        "recipe_contramuslos_hierbas"
+      ],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_contramuslos_hierbas",
+      "source_code": "P02",
+      "name": "Contramuslos con hierbas",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_contramuslo_pollo",
+          "quantity": 1000,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_verdura_variada",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_mostaza",
+          "quantity": 15,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Aliñar y hornear todo junto."
+      ],
+      "total_time_minutes": 55,
+      "active_time_minutes": 10,
+      "equipment": [
+        "horno",
+        "fuente"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p02_tupper",
+          "name": "Contramuslo y verduras",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [
+        "recipe_jamoncitos_limon"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_pollo_ajillo",
+      "source_code": "P03",
+      "name": "Pollo al ajillo",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 6,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_vino_blanco",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar pollo y ajo.",
+        "Añadir vino y cocinar parcialmente tapado."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 18,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p03_tupper",
+          "name": "Pollo al ajillo",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [
+        "recipe_pollo_champinones"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_pollo_champinones",
+      "source_code": "P04",
+      "name": "Pollo con champiñones",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar y retirar el pollo.",
+        "Cocinar cebolla y champiñón.",
+        "Reincorporar el pollo."
+      ],
+      "total_time_minutes": 35,
+      "active_time_minutes": 20,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [
+        "recipe_pollo_ajillo"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_lomo_encebollado",
+      "source_code": "P05",
+      "name": "Lomo encebollado",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_lomo_cerdo",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_vino_blanco",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar cebolla.",
+        "Marcar el lomo y terminar conjuntamente."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 18,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p05_tupper",
+          "name": "Lomo encebollado",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [
+        "recipe_hamburguesa_plato",
+        "recipe_filetes_rusos"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_lomo_plancha",
+      "source_code": "P06",
+      "name": "Lomo a la plancha",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_lomo_cerdo",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_limon",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Marinar brevemente y cocinar a la plancha."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 12,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_filetes_rusos",
+      "source_code": "P07",
+      "name": "Filetes rusos",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_harina_pan_rallado",
+          "quantity": 25,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Mezclar y formar 6–8 filetes.",
+        "Cocinar a la sartén o al horno."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 22,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p07_tupper",
+          "name": "Filetes rusos para tupper",
+          "servings": 1
+        },
+        {
+          "output_id": "leftover_p07_freezer",
+          "name": "Filetes rusos congelados",
+          "servings": 1,
+          "location": "congelador"
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_albondigas_tomate",
+      "source_code": "P08",
+      "name": "Albóndigas con tomate",
+      "category": "principal",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 1000,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_harina_pan_rallado",
+          "quantity": 40,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 750,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Formar y dorar u hornear.",
+        "Terminar dentro de la salsa."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 30,
+      "equipment": [
+        "sartén",
+        "cazuela"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_higaditos_encebollados",
+      "source_code": "P09",
+      "name": "Higaditos encebollados",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_higaditos_pollo",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_vino_blanco",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar cebolla.",
+        "Marcar hígado y terminar con vino."
+      ],
+      "total_time_minutes": 25,
+      "active_time_minutes": 18,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p09_tupper",
+          "name": "Higaditos encebollados",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_merluza_tomate",
+      "source_code": "P10",
+      "name": "Merluza con tomate",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_merluza",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Preparar salsa rápida.",
+        "Cocinar la merluza dentro 7–10 minutos."
+      ],
+      "total_time_minutes": 25,
+      "active_time_minutes": 15,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 1,
+      "freezable": false,
+      "tags": [
+        "pescado",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_merluza_papillote",
+      "source_code": "P11",
+      "name": "Merluza en papillote",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_merluza",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_limon",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Preparar tres paquetes.",
+        "Hornear hasta que el pescado esté hecho."
+      ],
+      "total_time_minutes": 25,
+      "active_time_minutes": 12,
+      "equipment": [
+        "horno"
+      ],
+      "storage_days": 1,
+      "freezable": false,
+      "tags": [
+        "pescado",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [
+        "recipe_merluza_tomate"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_ensalada_caballa_tupper",
+      "source_code": "P12",
+      "name": "Ensalada de caballa para tupper",
+      "category": "principal",
+      "servings": 1,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_caballa",
+          "quantity": 90,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pepino",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceitunas",
+          "quantity": 30,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Mezclar todo con los huevos ya cocidos."
+      ],
+      "total_time_minutes": 8,
+      "active_time_minutes": 8,
+      "equipment": [
+        "bol"
+      ],
+      "storage_days": 1,
+      "freezable": false,
+      "tags": [
+        "tupper",
+        "sin-cocción",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_berenjenas_rellenas",
+      "source_code": "P13",
+      "name": "Berenjenas rellenas",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_berenjena",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 90,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Asar y vaciar berenjenas.",
+        "Mezclar pulpa, carne y sofrito.",
+        "Rellenar y gratinar."
+      ],
+      "total_time_minutes": 65,
+      "active_time_minutes": 20,
+      "equipment": [
+        "horno",
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p13_tupper",
+          "name": "Berenjena rellena",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_calabacines_atun",
+      "source_code": "P14",
+      "name": "Calabacines rellenos de atún",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 900,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_atun",
+          "quantity": 240,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 70,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Vaciar y hornear parcialmente.",
+        "Rellenar y gratinar."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 20,
+      "equipment": [
+        "horno"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tortilla_calabacin",
+      "source_code": "P15",
+      "name": "Tortilla de calabacín",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 6,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar verdura y cuajar."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 20,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "vegetariana"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_tortilla_jamon_queso",
+      "source_code": "P16",
+      "name": "Tortilla de jamón y queso",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 6,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_jamon",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 90,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cuajar la tortilla con jamón y queso."
+      ],
+      "total_time_minutes": 15,
+      "active_time_minutes": 12,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "rápida",
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_huevos_pisto",
+      "source_code": "P17",
+      "name": "Huevos con pisto",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 6,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Calentar el pisto preparado y cuajar los huevos encima."
+      ],
+      "total_time_minutes": 12,
+      "active_time_minutes": 8,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "aprovechamiento",
+        "rápida"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": "El tomate triturado representa 600 g de pisto preparado en la fuente; la app lo enlaza como dependencia."
+    },
+    {
+      "id": "recipe_judias_huevos",
+      "source_code": "P18",
+      "name": "Judías verdes con huevos",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 6,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Preparar las judías.",
+        "Añadir huevo frito, cocido o pochado."
+      ],
+      "total_time_minutes": 20,
+      "active_time_minutes": 14,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_hamburguesa_plato",
+      "source_code": "P19",
+      "name": "Hamburguesa al plato",
+      "category": "principal",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_verdura_variada",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Formar hamburguesas.",
+        "Cocinar y servir con pisto o verduras."
+      ],
+      "total_time_minutes": 25,
+      "active_time_minutes": 18,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_p19_tupper",
+          "name": "Hamburguesa y pisto",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [
+        "recipe_filetes_rusos"
+      ],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_salchicha_pimientos",
+      "source_code": "P20",
+      "name": "Salchicha fresca con pimientos",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_salchicha_fresca",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 350,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar verdura y cocinar la salchicha."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 20,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_champinones_huevos",
+      "source_code": "P21",
+      "name": "Champiñones con huevos",
+      "category": "principal",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 6,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 3,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Saltear champiñones.",
+        "Añadir huevos revueltos o fritos."
+      ],
+      "total_time_minutes": 20,
+      "active_time_minutes": 15,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "bajo-hidrato"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_empanada_atun",
+      "source_code": "E01",
+      "name": "Empanada de atún",
+      "category": "empanada",
+      "servings": 5,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_atun",
+          "quantity": 240,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Mezclar relleno y reservar la porción indicada.",
+        "Montar entre masas y hornear a 190–200 °C."
+      ],
+      "total_time_minutes": 45,
+      "active_time_minutes": 15,
+      "equipment": [
+        "horno"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_e01_relleno",
+          "name": "Relleno de atún reservado",
+          "quantity": 250,
+          "unit": "g",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_empanada_pollo_setas",
+      "source_code": "E02",
+      "name": "Empanada de pollo y setas",
+      "category": "empanada",
+      "servings": 5,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 350,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 70,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocinar champiñón y cebolla.",
+        "Mezclar con pollo reservando una ración de relleno.",
+        "Montar y hornear."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 22,
+      "equipment": [
+        "horno",
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_e02_relleno",
+          "name": "Pollo y setas reservado",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_empanada_lomo_sofrito",
+      "source_code": "E03",
+      "name": "Empanada de lomo y sofrito",
+      "category": "empanada",
+      "servings": 5,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_lomo_cerdo",
+          "quantity": 450,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 450,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Marcar el lomo.",
+        "Mezclar con sofrito reservando una ración.",
+        "Montar y hornear."
+      ],
+      "total_time_minutes": 45,
+      "active_time_minutes": 18,
+      "equipment": [
+        "horno",
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_e03_relleno",
+          "name": "Lomo y sofrito reservado",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_empanada_jamon_queso",
+      "source_code": "E04",
+      "name": "Empanada de jamón y queso",
+      "category": "empanada",
+      "servings": 5,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_jamon",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Montar y hornear."
+      ],
+      "total_time_minutes": 35,
+      "active_time_minutes": 12,
+      "equipment": [
+        "horno"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_empanada_sobrasada_tetilla",
+      "source_code": "E05",
+      "name": "Empanada de sobrasada y tetilla",
+      "category": "empanada",
+      "servings": 5,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_sobrasada",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_queso_tetilla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 125,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Distribuir el relleno en pequeñas cantidades.",
+        "Montar y hornear."
+      ],
+      "total_time_minutes": 40,
+      "active_time_minutes": 12,
+      "equipment": [
+        "horno"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "ocasional"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_cocido",
+      "source_code": "G01",
+      "name": "Cocido",
+      "category": "guiso",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_garbanzo_seco",
+          "quantity": 350,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_carne_cocido",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 450,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_chorizo",
+          "quantity": 125,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tocino",
+          "quantity": 100,
+          "unit": "g",
+          "optional": true,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huesos_cocido",
+          "quantity": 1,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_puerro",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 3000,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Remojar garbanzos.",
+        "Cocer carnes, garbanzos y verduras en olla rápida.",
+        "Separar caldo y restos."
+      ],
+      "total_time_minutes": 85,
+      "active_time_minutes": 25,
+      "equipment": [
+        "olla rápida"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_caldo_cocido",
+          "name": "Caldo de cocido",
+          "quantity": 1000,
+          "unit": "ml",
+          "servings": 3
+        },
+        {
+          "output_id": "leftover_cocido_ropa_vieja",
+          "name": "Carne, garbanzos y verdura de cocido",
+          "quantity": 550,
+          "unit": "g",
+          "servings": 3
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_ropa_vieja",
+      "source_code": "G02",
+      "name": "Ropa vieja",
+      "category": "guiso",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_carne_cocido",
+          "quantity": 550,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Pochar cebolla y ajo.",
+        "Incorporar restos desmenuzados."
+      ],
+      "total_time_minutes": 20,
+      "active_time_minutes": 15,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "aprovechamiento"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_fabada",
+      "source_code": "G03",
+      "name": "Fabada",
+      "category": "guiso",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_fabes",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_chorizo",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_morcilla",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_panceta",
+          "quantity": 120,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Remojar las fabes.",
+        "Cocinar con el compango en olla rápida."
+      ],
+      "total_time_minutes": 65,
+      "active_time_minutes": 20,
+      "equipment": [
+        "olla rápida"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_g03_freezer",
+          "name": "Fabada congelada",
+          "servings": 2,
+          "location": "congelador"
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_judias_blancas_verduras",
+      "source_code": "G04",
+      "name": "Judías blancas con verduras",
+      "category": "guiso",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_alubia_seca",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_ajo",
+          "quantity": 2,
+          "unit": "diente",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_aceite_oliva",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocinar en olla rápida hasta que la legumbre esté tierna."
+      ],
+      "total_time_minutes": 60,
+      "active_time_minutes": 20,
+      "equipment": [
+        "olla rápida"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_g04_freezer",
+          "name": "Judías con verduras congeladas",
+          "servings": 2,
+          "location": "congelador"
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_lentejas_verduras",
+      "source_code": "G05",
+      "name": "Lentejas con verduras",
+      "category": "guiso",
+      "servings": 6,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_lenteja_pardina",
+          "quantity": 450,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_espinaca",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Cocer todo 35–40 minutos."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 18,
+      "equipment": [
+        "olla"
+      ],
+      "storage_days": 3,
+      "freezable": true,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_garbanzos_espinaca_huevo",
+      "source_code": "G06",
+      "name": "Garbanzos con espinacas y huevo",
+      "category": "guiso",
+      "servings": 4,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_garbanzo_cocido",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_espinaca",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 4,
+          "unit": "ud",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Calentar garbanzos con sofrito y espinaca.",
+        "Terminar con huevo."
+      ],
+      "total_time_minutes": 30,
+      "active_time_minutes": 15,
+      "equipment": [
+        "sartén"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_arroz_pollo_verduras",
+      "source_code": "A01",
+      "name": "Arroz de pollo y verduras",
+      "category": "arroz",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_arroz_redondo",
+          "quantity": 320,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 900,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar pollo y añadir verdura y sofrito.",
+        "Reservar 200 g de pollo y 250 g de verduras antes del arroz.",
+        "Añadir agua y arroz."
+      ],
+      "total_time_minutes": 45,
+      "active_time_minutes": 25,
+      "equipment": [
+        "paellera"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "domingo"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_a01_tupper",
+          "name": "Pollo y verduras sin arroz",
+          "quantity": 450,
+          "unit": "g",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "documented",
+      "notes": ""
+    },
+    {
+      "id": "recipe_arroz_costilla",
+      "source_code": "A02",
+      "name": "Arroz de costilla",
+      "category": "arroz",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_arroz_redondo",
+          "quantity": 320,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_costilla_cerdo",
+          "quantity": 800,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_verdura_variada",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 950,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar la costilla y verdura.",
+        "Reservar carne y verduras antes del arroz.",
+        "Añadir agua y arroz."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 28,
+      "equipment": [
+        "paellera"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "domingo"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [
+        {
+          "output_id": "leftover_a02_tupper",
+          "name": "Costilla y verduras sin arroz",
+          "servings": 1
+        }
+      ],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    },
+    {
+      "id": "recipe_arroz_magro",
+      "source_code": "A03",
+      "name": "Arroz de magro",
+      "category": "arroz",
+      "servings": 3,
+      "ingredients": [
+        {
+          "ingredient_id": "ingredient_arroz_redondo",
+          "quantity": 320,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_magro_cerdo",
+          "quantity": 700,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_verdura_variada",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "note": ""
+        },
+        {
+          "ingredient_id": "ingredient_agua",
+          "quantity": 900,
+          "unit": "ml",
+          "optional": false,
+          "note": ""
+        }
+      ],
+      "steps": [
+        "Dorar magro y verdura.",
+        "Añadir sofrito, agua y arroz."
+      ],
+      "total_time_minutes": 50,
+      "active_time_minutes": 28,
+      "equipment": [
+        "paellera"
+      ],
+      "storage_days": 3,
+      "freezable": false,
+      "tags": [
+        "domingo"
+      ],
+      "estimated_cost": null,
+      "cost_status": "calculated_from_catalog",
+      "leftover_outputs": [],
+      "possible_substitutions": [],
+      "time_confidence": "estimated",
+      "notes": ""
+    }
+  ]
+}

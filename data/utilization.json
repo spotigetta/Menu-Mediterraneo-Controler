@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "flows": [
+    {
+      "id": "flow_cocido_sopa",
+      "from_recipe_id": "recipe_cocido",
+      "output_id": "leftover_caldo_cocido",
+      "to_recipe_id": "recipe_sopa_rapida",
+      "reason": "El caldo del cocido sustituye caldo comprado."
+    },
+    {
+      "id": "flow_cocido_ropa_vieja",
+      "from_recipe_id": "recipe_cocido",
+      "output_id": "leftover_cocido_ropa_vieja",
+      "to_recipe_id": "recipe_ropa_vieja",
+      "reason": "Carne, garbanzos y verdura se transforman."
+    },
+    {
+      "id": "flow_sofrito_empanada",
+      "from_recipe_id": "recipe_sofrito_mediterraneo",
+      "output_id": "prepared_sofrito",
+      "to_recipe_id": "recipe_empanada_atun",
+      "reason": "Base común que ahorra trabajo activo."
+    },
+    {
+      "id": "flow_sofrito_arroz",
+      "from_recipe_id": "recipe_sofrito_mediterraneo",
+      "output_id": "prepared_sofrito",
+      "to_recipe_id": "recipe_arroz_pollo_verduras",
+      "reason": "Base común para el arroz."
+    },
+    {
+      "id": "flow_sofrito_merluza",
+      "from_recipe_id": "recipe_sofrito_mediterraneo",
+      "output_id": "prepared_sofrito",
+      "to_recipe_id": "recipe_merluza_tomate",
+      "reason": "Base de la salsa de pescado."
+    },
+    {
+      "id": "flow_pisto_huevos",
+      "from_recipe_id": "recipe_pisto_grande",
+      "output_id": "prepared_pisto",
+      "to_recipe_id": "recipe_huevos_pisto",
+      "reason": "Guarnición transformada en cena."
+    },
+    {
+      "id": "flow_arroz_pollo_tupper",
+      "from_recipe_id": "recipe_arroz_pollo_verduras",
+      "output_id": "leftover_a01_tupper",
+      "to_day_id": "day_w2_mon",
+      "reason": "Se reserva antes de añadir arroz para mantener bajo el hidrato del tupper."
+    },
+    {
+      "id": "flow_arroz_costilla_tupper",
+      "from_recipe_id": "recipe_arroz_costilla",
+      "output_id": "leftover_a02_tupper",
+      "to_day_id": "day_w3_mon",
+      "reason": "Carne y verduras se reservan antes del arroz."
+    },
+    {
+      "id": "flow_empanada_atun_relleno",
+      "from_recipe_id": "recipe_empanada_atun",
+      "output_id": "leftover_e01_relleno",
+      "to_day_id": "day_w1_fri",
+      "reason": "Relleno reservado antes de añadir la masa."
+    },
+    {
+      "id": "flow_empanada_pollo_relleno",
+      "from_recipe_id": "recipe_empanada_pollo_setas",
+      "output_id": "leftover_e02_relleno",
+      "to_day_id": "day_w2_fri",
+      "reason": "Relleno sin masa reutilizado como tupper."
+    },
+    {
+      "id": "flow_empanada_lomo_relleno",
+      "from_recipe_id": "recipe_empanada_lomo_sofrito",
+      "output_id": "leftover_e03_relleno",
+      "to_day_id": "day_w3_fri",
+      "reason": "Lomo y sofrito reservados antes de montar."
+    }
+  ]
+}

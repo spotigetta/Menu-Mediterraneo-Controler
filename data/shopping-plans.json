@@ -1,0 +1,938 @@
+{
+  "schema_version": 1,
+  "plans": [
+    {
+      "id": "shopping_w1_a",
+      "sequence": 1,
+      "week": 1,
+      "label": "Lunes · semana 1",
+      "notes": "Despensa de 21 días y frescos de semana 1",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w1_a_item_1",
+          "ingredient_id": "ingredient_arroz_redondo",
+          "quantity": 2000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_2",
+          "ingredient_id": "ingredient_lenteja_pardina",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_3",
+          "ingredient_id": "ingredient_garbanzo_seco",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_4",
+          "ingredient_id": "ingredient_alubia_seca",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_5",
+          "ingredient_id": "ingredient_garbanzo_cocido",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_6",
+          "ingredient_id": "ingredient_alubia_cocida",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_7",
+          "ingredient_id": "ingredient_tomate_triturado",
+          "quantity": 4800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_8",
+          "ingredient_id": "ingredient_atun",
+          "quantity": 12,
+          "unit": "lata",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_9",
+          "ingredient_id": "ingredient_caballa",
+          "quantity": 6,
+          "unit": "lata",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_10",
+          "ingredient_id": "ingredient_aceitunas",
+          "quantity": 2,
+          "unit": "frasco",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_11",
+          "ingredient_id": "ingredient_caldo",
+          "quantity": 2000,
+          "unit": "ml",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_12",
+          "ingredient_id": "ingredient_pan_integral",
+          "quantity": 1,
+          "unit": "paquete",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_13",
+          "ingredient_id": "ingredient_nueces",
+          "quantity": 500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_14",
+          "ingredient_id": "ingredient_avena",
+          "quantity": 500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_15",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 24,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_16",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_17",
+          "ingredient_id": "ingredient_queso",
+          "quantity": 300,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_18",
+          "ingredient_id": "ingredient_jamon",
+          "quantity": 250,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_19",
+          "ingredient_id": "ingredient_sobrasada",
+          "quantity": 150,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_20",
+          "ingredient_id": "ingredient_panceta",
+          "quantity": 300,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_21",
+          "ingredient_id": "ingredient_jamoncito_pollo",
+          "quantity": 1200,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_22",
+          "ingredient_id": "ingredient_lomo_cerdo",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_23",
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_24",
+          "ingredient_id": "ingredient_merluza",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_25",
+          "ingredient_id": "ingredient_carne_cocido",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_26",
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_27",
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 2500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_28",
+          "ingredient_id": "ingredient_berenjena",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_29",
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_30",
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 2000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_31",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 2500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_32",
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 1200,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_33",
+          "ingredient_id": "ingredient_brocoli",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_34",
+          "ingredient_id": "ingredient_puerro",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_35",
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_36",
+          "ingredient_id": "ingredient_patata",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_37",
+          "ingredient_id": "ingredient_pepino",
+          "quantity": 2,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_38",
+          "ingredient_id": "ingredient_manzana",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_39",
+          "ingredient_id": "ingredient_pera",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_40",
+          "ingredient_id": "ingredient_platano",
+          "quantity": 1200,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_a_item_41",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "id": "shopping_w1_b",
+      "sequence": 2,
+      "week": 1,
+      "label": "Jueves/viernes · semana 1",
+      "notes": "Reposición corta",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w1_b_item_1",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 12,
+          "unit": "ud",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_b_item_2",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 750,
+          "unit": "g",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_b_item_3",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_b_item_4",
+          "ingredient_id": "ingredient_pepino",
+          "quantity": 1,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_b_item_5",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w1_b_item_6",
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "id": "shopping_w2_a",
+      "sequence": 3,
+      "week": 2,
+      "label": "Lunes · semana 2",
+      "notes": "Frescos y proteínas",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w2_a_item_1",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 24,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_2",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_3",
+          "ingredient_id": "ingredient_contramuslo_pollo",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_4",
+          "ingredient_id": "ingredient_higaditos_pollo",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_5",
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 700,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_6",
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 400,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_7",
+          "ingredient_id": "ingredient_merluza",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_8",
+          "ingredient_id": "ingredient_fabes",
+          "quantity": 500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_9",
+          "ingredient_id": "ingredient_chorizo",
+          "quantity": 150,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_10",
+          "ingredient_id": "ingredient_morcilla",
+          "quantity": 150,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_11",
+          "ingredient_id": "ingredient_panceta",
+          "quantity": 120,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_12",
+          "ingredient_id": "ingredient_costilla_cerdo",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_13",
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_14",
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_15",
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 2000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_16",
+          "ingredient_id": "ingredient_calabaza",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_17",
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_18",
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_19",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 2000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_20",
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_21",
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_a_item_22",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 3000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "id": "shopping_w2_b",
+      "sequence": 4,
+      "week": 2,
+      "label": "Jueves/viernes · semana 2",
+      "notes": "Reposición condicional",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w2_b_item_1",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 12,
+          "unit": "ud",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_b_item_2",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 750,
+          "unit": "g",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_b_item_3",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 1750,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_b_item_4",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w2_b_item_5",
+          "ingredient_id": "ingredient_pepino",
+          "quantity": 1,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "id": "shopping_w3_a",
+      "sequence": 5,
+      "week": 3,
+      "label": "Lunes · semana 3",
+      "notes": "Frescos y proteínas",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w3_a_item_1",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 24,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_2",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_3",
+          "ingredient_id": "ingredient_pollo",
+          "quantity": 800,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_4",
+          "ingredient_id": "ingredient_carne_picada",
+          "quantity": 1400,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_5",
+          "ingredient_id": "ingredient_lomo_cerdo",
+          "quantity": 450,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_6",
+          "ingredient_id": "ingredient_merluza",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_7",
+          "ingredient_id": "ingredient_magro_cerdo",
+          "quantity": 700,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_8",
+          "ingredient_id": "ingredient_masa_hojaldre",
+          "quantity": 2,
+          "unit": "ud",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_9",
+          "ingredient_id": "ingredient_berenjena",
+          "quantity": 700,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_10",
+          "ingredient_id": "ingredient_calabacin",
+          "quantity": 1750,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_11",
+          "ingredient_id": "ingredient_champiñon",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_12",
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_13",
+          "ingredient_id": "ingredient_brocoli",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_14",
+          "ingredient_id": "ingredient_pimiento",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_15",
+          "ingredient_id": "ingredient_cebolla",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_16",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 2000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_17",
+          "ingredient_id": "ingredient_zanahoria",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_a_item_18",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 3000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    },
+    {
+      "id": "shopping_w3_b",
+      "sequence": 6,
+      "week": 3,
+      "label": "Jueves/viernes · semana 3",
+      "notes": "Compra de cierre; no reponer despensa",
+      "status": "planned",
+      "items": [
+        {
+          "id": "shopping_w3_b_item_1",
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 12,
+          "unit": "ud",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_b_item_2",
+          "ingredient_id": "ingredient_yogur",
+          "quantity": 750,
+          "unit": "g",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_b_item_3",
+          "ingredient_id": "ingredient_fruta_variada",
+          "quantity": 1500,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_b_item_4",
+          "ingredient_id": "ingredient_tomate_fresco",
+          "quantity": 1000,
+          "unit": "g",
+          "conditional": false,
+          "checked": false,
+          "ordered": false
+        },
+        {
+          "id": "shopping_w3_b_item_5",
+          "ingredient_id": "ingredient_judia_verde",
+          "quantity": 600,
+          "unit": "g",
+          "conditional": true,
+          "checked": false,
+          "ordered": false
+        }
+      ]
+    }
+  ]
+}

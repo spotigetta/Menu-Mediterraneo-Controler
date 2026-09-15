@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "ingredients": [
+    {
+      "id": "ingredient_aceite_oliva",
+      "name": "Aceite de oliva virgen extra",
+      "category": "despensa",
+      "default_unit": "ml",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_aceitunas",
+      "name": "Aceitunas",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_agua",
+      "name": "Agua",
+      "category": "despensa",
+      "default_unit": "ml",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_ajo",
+      "name": "Ajo",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_alubia_cocida",
+      "name": "Alubia blanca cocida",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_alubia_seca",
+      "name": "Alubia blanca seca",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_arroz_redondo",
+      "name": "Arroz redondo",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_atun",
+      "name": "Atún al natural",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_avena",
+      "name": "Avena",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_berenjena",
+      "name": "Berenjena",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_brocoli",
+      "name": "Brócoli",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_caballa",
+      "name": "Caballa en conserva",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_calabacin",
+      "name": "Calabacín",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_calabaza",
+      "name": "Calabaza",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_caldo",
+      "name": "Caldo",
+      "category": "despensa",
+      "default_unit": "ml",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_carne_cocido",
+      "name": "Morcillo/carne para cocido",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_carne_picada",
+      "name": "Carne picada",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_cebolla",
+      "name": "Cebolla",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_champiñon",
+      "name": "Champiñón",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_chistorra",
+      "name": "Chistorra",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_chorizo",
+      "name": "Chorizo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_coliflor",
+      "name": "Coliflor",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_contramuslo_pollo",
+      "name": "Contramuslo de pollo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_costilla_cerdo",
+      "name": "Costilla de cerdo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_espinaca",
+      "name": "Espinaca",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_fabes",
+      "name": "Fabes",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_fideo",
+      "name": "Fideo",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_fruta_variada",
+      "name": "Fruta variada",
+      "category": "frutas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_garbanzo_cocido",
+      "name": "Garbanzo cocido",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_garbanzo_seco",
+      "name": "Garbanzo seco",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_harina_pan_rallado",
+      "name": "Pan rallado",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_higaditos_pollo",
+      "name": "Higaditos de pollo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_huesos_cocido",
+      "name": "Huesos para cocido",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_huevo",
+      "name": "Huevo",
+      "category": "huevos",
+      "default_unit": "ud",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_jamon",
+      "name": "Jamón",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_jamoncito_pollo",
+      "name": "Jamoncito de pollo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_judia_verde",
+      "name": "Judía verde",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_leche",
+      "name": "Leche",
+      "category": "lácteos",
+      "default_unit": "ml",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_lenteja_pardina",
+      "name": "Lenteja pardina",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_limon",
+      "name": "Limón",
+      "category": "frutas",
+      "default_unit": "ud",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_lomo_cerdo",
+      "name": "Cinta de lomo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_magro_cerdo",
+      "name": "Magro de cerdo",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_manzana",
+      "name": "Manzana",
+      "category": "frutas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_masa_hojaldre",
+      "name": "Masa de hojaldre/empanada",
+      "category": "nevera",
+      "default_unit": "ud",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_merluza",
+      "name": "Merluza",
+      "category": "pescados",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_morcilla",
+      "name": "Morcilla",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_mostaza",
+      "name": "Mostaza",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_nueces",
+      "name": "Nueces",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_panceta",
+      "name": "Panceta",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_pan_integral",
+      "name": "Pan integral",
+      "category": "despensa",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_patata",
+      "name": "Patata",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_pepino",
+      "name": "Pepino",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_pera",
+      "name": "Pera",
+      "category": "frutas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_pimiento",
+      "name": "Pimiento",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_platano",
+      "name": "Plátano o banana",
+      "category": "frutas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_pollo",
+      "name": "Pollo troceado",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_puerro",
+      "name": "Puerro",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_queso",
+      "name": "Queso semicurado o tierno",
+      "category": "lácteos",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_queso_tetilla",
+      "name": "Queso de tetilla",
+      "category": "lácteos",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_salchicha_fresca",
+      "name": "Salchicha fresca/longaniza",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_sobrasada",
+      "name": "Sobrasada",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_tocino",
+      "name": "Tocino",
+      "category": "carnes",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_tomate_fresco",
+      "name": "Tomate fresco",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_tomate_triturado",
+      "name": "Tomate triturado",
+      "category": "conservas",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_verdura_asada",
+      "name": "Verdura asada preparada",
+      "category": "comida_preparada",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_zanahoria",
+      "name": "Zanahoria",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_verdura_variada",
+      "name": "Verdura variada",
+      "category": "verduras",
+      "default_unit": "g",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_vino_blanco",
+      "name": "Vino blanco",
+      "category": "despensa",
+      "default_unit": "ml",
+      "aliases": []
+    },
+    {
+      "id": "ingredient_yogur",
+      "name": "Yogur natural",
+      "category": "lácteos",
+      "default_unit": "g",
+      "aliases": []
+    }
+  ]
+}

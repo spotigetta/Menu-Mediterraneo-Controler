@@ -1,0 +1,28 @@
+name: Actualizar precios Ahorramas
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5,17 * * *'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Actualizar productos verificables
+        run: node scripts/update-prices.mjs || test $? -eq 2
+      - name: Validar relaciones
+        run: node scripts/validate-data.mjs
+      - name: Guardar cambios
+        run: |
+          if ! git diff --quiet -- data/products.json; then
+            git config user.name "mesa21-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/products.json
+            git commit -m "data: actualizar precios Ahorramas"
+            git push
+          fi

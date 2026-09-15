@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "plan_start_date": "2026-09-14",
+  "postal_code": "45122",
+  "currency": "EUR",
+  "locale": "es-ES",
+  "auto_price_refresh": true,
+  "price_refresh_hours": 12,
+  "remote_price_feed_url": "",
+  "profiles": [
+    {
+      "id": "persona_mayor",
+      "name": "Persona mayor",
+      "portion_multiplier": 0.78,
+      "protein_grams_range": [
+        120,
+        150
+      ],
+      "preferences": []
+    },
+    {
+      "id": "joven_gimnasio",
+      "name": "Joven gimnasio",
+      "portion_multiplier": 1.25,
+      "protein_grams_range": [
+        200,
+        250
+      ],
+      "preferences": [
+        "extra_protein"
+      ],
+      "add_ons": [
+        {
+          "ingredient_id": "ingredient_avena",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "ingredient_id": "ingredient_arroz_redondo",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "ingredient_id": "ingredient_huevo",
+          "quantity": 1,
+          "unit": "ud"
+        }
+      ]
+    },
+    {
+      "id": "trabajador",
+      "name": "Trabajador",
+      "portion_multiplier": 1,
+      "protein_grams_range": [
+        180,
+        220
+      ],
+      "preferences": [
+        "low_concentrated_carbs"
+      ]
+    }
+  ],
+  "serving_rules": {
+    "weekday_lunch_profiles": [
+      "trabajador"
+    ],
+    "dinner_profiles": [
+      "persona_mayor",
+      "joven_gimnasio",
+      "trabajador"
+    ],
+    "weekend_lunch_profiles": [
+      "persona_mayor",
+      "joven_gimnasio",
+      "trabajador"
+    ]
+  },
+  "storage": {
+    "fridge_max_unassigned_days": 3,
+    "prioritize_expiring": true
+  },
+  "price_provider": {
+    "mode": "static_fallback",
+    "supports": [
+      "local_catalog",
+      "remote_json_feed"
+    ],
+    "note": "GitHub Pages no puede depender de endpoints privados o sin CORS. Configure remote_price_feed_url para un feed actualizado por GitHub Actions o proxy propio."
+  }
+}
