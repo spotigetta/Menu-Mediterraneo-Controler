@@ -78,7 +78,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/sofrito_mediterraneo.webp"
     },
     {
       "id": "recipe_pisto_grande",
@@ -159,7 +159,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/pisto_grande.webp"
     },
     {
       "id": "recipe_verduras_asadas",
@@ -232,7 +232,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/verduras_asadas.webp"
     },
     {
       "id": "recipe_huevos_cocidos",
@@ -269,7 +269,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/huevos_cocidos.webp"
     },
     {
       "id": "recipe_huevos_tomate",
@@ -320,7 +320,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/huevos_tomate.webp"
     },
     {
       "id": "recipe_revuelto_jamon",
@@ -364,7 +364,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/revuelto_jamon.webp"
     },
     {
       "id": "recipe_tortilla_queso",
@@ -408,7 +408,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tortilla_queso.webp"
     },
     {
       "id": "recipe_tortilla_sobrasada",
@@ -458,7 +458,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tortilla_sobrasada.webp"
     },
     {
       "id": "recipe_chistorra_huevo",
@@ -502,7 +502,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/chistorra_huevo.webp"
     },
     {
       "id": "recipe_panceta_huevo_tomate",
@@ -553,7 +553,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/panceta_huevo_tomate.webp"
     },
     {
       "id": "recipe_jamon_queso_tomate",
@@ -611,7 +611,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/jamon_queso_tomate.webp"
     },
     {
       "id": "recipe_yogur_platano_nueces",
@@ -661,7 +661,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "Perfil gimnasio: 250 g de yogur y avena si entrena.",
-      "image_path": "assets/images/recipes/yogur-fruta.webp"
+      "image_path": "assets/images/recipes/yogur_platano_nueces.webp"
     },
     {
       "id": "recipe_yogur_fruta_nueces",
@@ -713,7 +713,7 @@
       ],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/yogur-fruta.webp"
+      "image_path": "assets/images/recipes/yogur_fruta_nueces.webp"
     },
     {
       "id": "recipe_tostada_tomate_huevo",
@@ -770,7 +770,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "Perfil gimnasio: dos tostadas y dos huevos.",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tostada_tomate_huevo.webp"
     },
     {
       "id": "recipe_avena_nocturna",
@@ -827,7 +827,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/yogur-fruta.webp"
+      "image_path": "assets/images/recipes/avena_nocturna.webp"
     },
     {
       "id": "recipe_tosta_sobrasada_queso",
@@ -877,7 +877,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tosta_sobrasada_queso.webp"
     },
     {
       "id": "recipe_crema_calabacin",
@@ -955,7 +955,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/crema-calabacin.webp"
+      "image_path": "assets/images/recipes/crema_calabacin.webp"
     },
     {
       "id": "recipe_crema_calabaza",
@@ -1026,7 +1026,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/crema-calabaza.webp"
+      "image_path": "assets/images/recipes/crema_calabaza.webp"
     },
     {
       "id": "recipe_sopa_rapida",
@@ -1077,7 +1077,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/crema-calabaza.webp"
+      "image_path": "assets/images/recipes/sopa_rapida.webp"
     },
     {
       "id": "recipe_ensalada_tomate",
@@ -1150,7 +1150,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "Atún y queso son alternativas, no ingredientes acumulativos.",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/ensalada_tomate.webp"
     },
     {
       "id": "recipe_judias_verdes_ajillo",
@@ -1202,7 +1202,7 @@
       ],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/judias_verdes_ajillo.webp"
     },
     {
       "id": "recipe_brocoli_sencillo",
@@ -1252,7 +1252,7 @@
       ],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/brocoli_sencillo.webp"
     },
     {
       "id": "recipe_champinones_ajillo",
@@ -1302,7 +1302,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/champinones_ajillo.webp"
     },
     {
       "id": "recipe_jamoncitos_limon",
@@ -1381,7 +1381,7 @@
       ],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/pollo-horno.webp"
+      "image_path": "assets/images/recipes/jamoncitos_limon.webp"
     },
     {
       "id": "recipe_contramuslos_hierbas",
@@ -1452,7 +1452,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/pollo-horno.webp"
+      "image_path": "assets/images/recipes/contramuslos_hierbas.webp"
     },
     {
       "id": "recipe_pollo_ajillo",
@@ -1516,7 +1516,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/pollo-horno.webp"
+      "image_path": "assets/images/recipes/pollo_ajillo.webp"
     },
     {
       "id": "recipe_pollo_champinones",
@@ -1582,7 +1582,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/pollo-horno.webp"
+      "image_path": "assets/images/recipes/pollo_champinones.webp"
     },
     {
       "id": "recipe_lomo_encebollado",
@@ -1647,7 +1647,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/lomo_encebollado.webp"
     },
     {
       "id": "recipe_lomo_plancha",
@@ -1705,7 +1705,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/lomo_plancha.webp"
     },
     {
       "id": "recipe_filetes_rusos",
@@ -1773,7 +1773,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/filetes_rusos.webp"
     },
     {
       "id": "recipe_albondigas_tomate",
@@ -1837,7 +1837,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/albondigas_tomate.webp"
     },
     {
       "id": "recipe_higaditos_encebollados",
@@ -1906,7 +1906,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/higaditos_encebollados.webp"
     },
     {
       "id": "recipe_merluza_tomate",
@@ -1972,7 +1972,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/merluza-tomate.webp"
+      "image_path": "assets/images/recipes/merluza_tomate.webp"
     },
     {
       "id": "recipe_merluza_papillote",
@@ -2040,7 +2040,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/merluza-tomate.webp"
+      "image_path": "assets/images/recipes/merluza_papillote.webp"
     },
     {
       "id": "recipe_ensalada_caballa_tupper",
@@ -2113,7 +2113,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/ensalada_caballa_tupper.webp"
     },
     {
       "id": "recipe_berenjenas_rellenas",
@@ -2177,7 +2177,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/berenjenas_rellenas.webp"
     },
     {
       "id": "recipe_calabacines_atun",
@@ -2233,7 +2233,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/ensalada-tomate.webp"
+      "image_path": "assets/images/recipes/calabacines_atun.webp"
     },
     {
       "id": "recipe_tortilla_calabacin",
@@ -2290,7 +2290,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tortilla_calabacin.webp"
     },
     {
       "id": "recipe_tortilla_jamon_queso",
@@ -2341,7 +2341,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/tortilla_jamon_queso.webp"
     },
     {
       "id": "recipe_huevos_pisto",
@@ -2385,7 +2385,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "El tomate triturado representa 600 g de pisto preparado en la fuente; la app lo enlaza como dependencia.",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/huevos_pisto.webp"
     },
     {
       "id": "recipe_judias_huevos",
@@ -2443,7 +2443,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/judias_huevos.webp"
     },
     {
       "id": "recipe_hamburguesa_plato",
@@ -2493,7 +2493,7 @@
       ],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/hamburguesa_plato.webp"
     },
     {
       "id": "recipe_salchicha_pimientos",
@@ -2541,7 +2541,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/lomo-cebolla.webp"
+      "image_path": "assets/images/recipes/salchicha_pimientos.webp"
     },
     {
       "id": "recipe_champinones_huevos",
@@ -2599,7 +2599,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/huevos-tomate.webp"
+      "image_path": "assets/images/recipes/champinones_huevos.webp"
     },
     {
       "id": "recipe_empanada_atun",
@@ -2663,7 +2663,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/empanada.webp"
+      "image_path": "assets/images/recipes/empanada_atun.webp"
     },
     {
       "id": "recipe_empanada_pollo_setas",
@@ -2734,7 +2734,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/empanada.webp"
+      "image_path": "assets/images/recipes/empanada_pollo_setas.webp"
     },
     {
       "id": "recipe_empanada_lomo_sofrito",
@@ -2791,7 +2791,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/empanada.webp"
+      "image_path": "assets/images/recipes/empanada_lomo_sofrito.webp"
     },
     {
       "id": "recipe_empanada_jamon_queso",
@@ -2839,7 +2839,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/empanada.webp"
+      "image_path": "assets/images/recipes/empanada_jamon_queso.webp"
     },
     {
       "id": "recipe_empanada_sobrasada_tetilla",
@@ -2897,7 +2897,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/empanada.webp"
+      "image_path": "assets/images/recipes/empanada_sobrasada_tetilla.webp"
     },
     {
       "id": "recipe_cocido",
@@ -3062,7 +3062,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/cocido.webp"
+      "image_path": "assets/images/recipes/ropa_vieja.webp"
     },
     {
       "id": "recipe_fabada",
@@ -3215,7 +3215,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/cocido.webp"
+      "image_path": "assets/images/recipes/judias_blancas_verduras.webp"
     },
     {
       "id": "recipe_lentejas_verduras",
@@ -3284,7 +3284,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/cocido.webp"
+      "image_path": "assets/images/recipes/lentejas_verduras.webp"
     },
     {
       "id": "recipe_garbanzos_espinaca_huevo",
@@ -3340,7 +3340,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/cocido.webp"
+      "image_path": "assets/images/recipes/garbanzos_espinaca_huevo.webp"
     },
     {
       "id": "recipe_arroz_pollo_verduras",
@@ -3421,7 +3421,7 @@
       "possible_substitutions": [],
       "time_confidence": "documented",
       "notes": "",
-      "image_path": "assets/images/recipes/arroz.webp"
+      "image_path": "assets/images/recipes/arroz_pollo_verduras.webp"
     },
     {
       "id": "recipe_arroz_costilla",
@@ -3493,7 +3493,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/arroz.webp"
+      "image_path": "assets/images/recipes/arroz_costilla.webp"
     },
     {
       "id": "recipe_arroz_magro",
@@ -3558,7 +3558,7 @@
       "possible_substitutions": [],
       "time_confidence": "estimated",
       "notes": "",
-      "image_path": "assets/images/recipes/arroz.webp"
+      "image_path": "assets/images/recipes/arroz_magro.webp"
     }
   ]
 }

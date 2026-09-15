@@ -28,7 +28,8 @@ const ingredientDefs = [
   ['tomate_triturado','Tomate triturado','conservas','g'],['verdura_asada','Verdura asada preparada','comida_preparada','g'],['zanahoria','Zanahoria','verduras','g'],
   ['verdura_variada','Verdura variada','verduras','g'],['vino_blanco','Vino blanco','despensa','ml'],['yogur','Yogur natural','lácteos','g']
 ];
-const ingredients = ingredientDefs.map(([slug,name,category,default_unit]) => ({id:`ingredient_${slug}`,name,category,default_unit,aliases:[]}));
+const aisleFor={frutas:'Fruta y verdura',verduras:'Fruta y verdura',carnes:'Carnicería y charcutería',pescados:'Pescadería y congelados','lácteos':'Lácteos y huevos',huevos:'Lácteos y huevos',conservas:'Conservas',nevera:'Refrigerados',despensa:'Despensa',comida_preparada:'Listos para comer'};
+const ingredients = ingredientDefs.map(([slug,name,category,default_unit]) => ({id:`ingredient_${slug}`,name,category,aisle:aisleFor[category]||'Otros',default_unit,aliases:[]}));
 const I = (slug, quantity, unit='g', optional=false, note='') => ({ingredient_id:`ingredient_${slug}`,quantity,unit,optional,note});
 const R = (code, slug, name, category, servings, total, active, ingredients, steps, extra={}) => ({
   id:`recipe_${slug}`, source_code:code, name, category, servings, ingredients, steps, total_time_minutes:total,
@@ -98,17 +99,7 @@ R('A01','arroz_pollo_verduras','Arroz de pollo y verduras','arroz',3,45,25,[I('a
 R('A02','arroz_costilla','Arroz de costilla','arroz',3,50,28,[I('arroz_redondo',320),I('costilla_cerdo',800),I('verdura_variada',500),I('tomate_triturado',250),I('agua',950,'ml')],['Dorar la costilla y verdura.','Reservar carne y verduras antes del arroz.','Añadir agua y arroz.'],{equipment:['paellera'],leftover_outputs:[{output_id:'leftover_a02_tupper',name:'Costilla y verduras sin arroz',servings:1}],tags:['domingo'],time_confidence:'estimated'}),
 R('A03','arroz_magro','Arroz de magro','arroz',3,50,28,[I('arroz_redondo',320),I('magro_cerdo',700),I('verdura_variada',500),I('tomate_triturado',250),I('agua',900,'ml')],['Dorar magro y verdura.','Añadir sofrito, agua y arroz.'],{equipment:['paellera'],tags:['domingo'],time_confidence:'estimated'})
 ];
-const imageForCode=code=>{
-  if(['D08','D09','D11'].includes(code))return 'yogur-fruta';
-  if(code.startsWith('D')||['B04','P15','P16','P17','P18','P21'].includes(code))return 'huevos-tomate';
-  if(code==='C01')return 'crema-calabacin'; if(code==='C02'||code==='C03')return 'crema-calabaza';
-  if(['P01','P02','P03','P04'].includes(code))return 'pollo-horno';
-  if(['P05','P06','P07','P08','P09','P13','P19','P20'].includes(code))return 'lomo-cebolla';
-  if(['P10','P11'].includes(code))return 'merluza-tomate'; if(['P12','P14','C04'].includes(code))return 'ensalada-tomate';
-  if(code.startsWith('E'))return 'empanada'; if(code==='G03')return 'fabada'; if(code.startsWith('G'))return 'cocido';
-  if(code.startsWith('A'))return 'arroz'; return 'ensalada-tomate';
-};
-for(const r of recipes)r.image_path=`assets/images/recipes/${imageForCode(r.source_code)}.webp`;
+for(const r of recipes)r.image_path=`assets/images/recipes/${r.id.replace('recipe_','')}.webp`;
 
 const meal = (id, label, refs, servings, source='cook') => ({id,label,recipe_ids:refs,servings,source,status:'pending'});
 const daysRaw = [
@@ -167,14 +158,14 @@ const shoppingPlans=shoppingDefs.map(([slug,week,label,notes,items],i)=>({id:`sh
 const products = [
 ['huevos_alipende_24','huevo','Alipende','Huevos M de gallinas sueltas',24,'ud',5.25,2.63,'docena','https://www.ahorramas.com/huevos-de-gallinas-sueltas-en-el-gallinero-alipende-24u-clase-m-31201.html'],
 ['arroz_alipende_1kg','arroz_redondo','Alipende','Arroz redondo',1,'kg',1.15,1.15,'kg','https://www.ahorramas.com/alimentacion/arroces-pastas-y-legumbres/arroz/grano-redondo/'],
-['tomate_triturado_alipende_800','tomate_triturado','Alipende','Tomate natural triturado',800,'g',1,1.25,'kg','https://www.ahorramas.com/alimentacion/conservas-vegetales/tomate/tomate-natural-triturado/'],
+['tomate_triturado_alipende_800','tomate_triturado','Alipende','Tomate natural triturado',800,'g',1,1.25,'kg','https://www.ahorramas.com/tomate-triturado-sin-gluten-categoria-extra-alipende-800-g-95858.html'],
 ['lenteja_alipende_1kg','lenteja_pardina','Alipende','Lenteja pardina',1,'kg',1.85,1.85,'kg','https://www.ahorramas.com/lenteja-alipende-1kg-pardina-77272.html'],
 ['garbanzo_cocido_alipende_400','garbanzo_cocido','Alipende','Garbanzo cocido',400,'g',0.8,2,'kg','https://www.ahorramas.com/alimentacion/platos-preparados/legumbres/garbanzos-cocidos/'],
 ['alubia_cocida_alipende_400','alubia_cocida','Alipende','Alubia blanca cocida',400,'g',0.75,1.88,'kg','https://www.ahorramas.com/alubia-blanca-cocida-alipende-400g-60127.html'],
-['atun_alipende_pack6','atun','Alipende','Atún al natural pack 6',6,'lata',4.2,0.7,'lata','https://www.ahorramas.com/alimentacion/conservas-de-pescado/atun/atun-natural/'],
-['yogur_griego_alipende_750','yogur','Alipende','Yogur griego natural',750,'g',1.45,1.93,'kg','https://www.ahorramas.com/marcas/alipende/'],
+['atun_alipende_pack6','atun','Alipende','Atún al natural pack 6',6,'lata',4.2,0.7,'lata','https://www.ahorramas.com/atun-claro-alipende-pack-6-al-natural-51289.html'],
+['yogur_griego_alipende_750','yogur','Alipende','Yogur griego natural',750,'g',1.45,1.93,'kg','https://www.ahorramas.com/yogur-estilo-griego-alipende-pack-6-natural-750g-84625.html'],
 ['queso_semicurado_alipende_300','queso','Alipende','Queso semicurado cuña',300,'g',2.91,9.7,'kg','https://www.ahorramas.com/queso-semicurado-cuna-alipende-300g-52952.html'],
-['masa_hojaldre_alipende_pack2','masa_hojaldre','Alipende','Masa de hojaldre rectangular pack 2',2,'ud',2.12,1.06,'ud','https://www.ahorramas.com/alimentacion/platos-preparados/pizzas-y-masas/'],
+['masa_hojaldre_alipende_pack2','masa_hojaldre','Alipende','Masa de hojaldre rectangular pack 2',2,'ud',2.12,1.06,'ud','https://www.ahorramas.com/masa-de-hojaldre-alipende-pack-2-rectangular-44450.html'],
 ['merluza_congelada_600','merluza','Referencia Ahorramás','Merluza congelada sin piel',600,'g',5.5,9.17,'kg','https://www.ahorramas.com/congelados/pescado-y-marisco-congelado/merluza/'],
 ['jamoncitos_pollo','jamoncito_pollo','Referencia Ahorramás','Jamoncitos de pollo',1,'kg',5.14,5.14,'kg','https://www.ahorramas.com/ofertas-destacadas/aves-de-espana/'],
 ['contramuslo_alipende','contramuslo_pollo','Alipende','Contramuslo de pollo',1,'kg',4.21,4.21,'kg','https://www.ahorramas.com/ofertas-destacadas/aves-de-espana/'],

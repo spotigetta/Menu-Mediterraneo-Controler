@@ -9,10 +9,10 @@ async function inspect(product){
   if(!response.ok)throw new Error(`HTTP ${response.status}`);const html=await response.text(),scripts=[...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
   const nodes=[];for(const m of scripts){try{productNodes(JSON.parse(decode(m[1].trim())),nodes)}catch{}}
   const expected=product.name.toLowerCase().split(/\s+/).filter(x=>x.length>3);const node=nodes.find(n=>{const name=String(n.name||'').toLowerCase();return expected.filter(x=>name.includes(x)).length>=Math.min(2,expected.length)})||((nodes.length===1)?nodes[0]:null);
-  const price=node&&readOffer(node);if(!price)throw new Error('sin oferta inequívoca en JSON-LD');return price;
+  const price=node&&readOffer(node);if(!price)throw new Error('sin oferta inequívoca en JSON-LD');const rawImage=Array.isArray(node.image)?node.image[0]:node.image;const image=typeof rawImage==='object'?rawImage.url:rawImage;return {price,image_url:image?new URL(image,product.catalog_url).href:null};
 }
 let updated=0;const failures=[];
-for(const product of data.products){try{const price=await inspect(product);product.current_price=price;product.price_date=new Date().toISOString().slice(0,10);product.price_status='current';product.source='ahorramas_catalog_page';updated++}catch(error){failures.push(`${product.product_id}: ${error.message}`)}}
+for(const product of data.products){try{const result=await inspect(product);product.current_price=result.price;if(result.image_url)product.image_url=result.image_url;product.price_date=new Date().toISOString().slice(0,10);product.price_status='current';product.source='ahorramas_catalog_page';updated++}catch(error){failures.push(`${product.product_id}: ${error.message}`)}}
 if(updated){data.last_updated=new Date().toISOString();await writeFile(path,JSON.stringify(data,null,2)+'\n','utf8')}
 console.log(JSON.stringify({updated,skipped:failures.length,failures},null,2));
 if(!updated)process.exitCode=2;

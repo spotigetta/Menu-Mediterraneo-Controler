@@ -5,6 +5,7 @@
       "id": "ingredient_aceite_oliva",
       "name": "Aceite de oliva virgen extra",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "ml",
       "aliases": []
     },
@@ -12,6 +13,7 @@
       "id": "ingredient_aceitunas",
       "name": "Aceitunas",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -19,6 +21,7 @@
       "id": "ingredient_agua",
       "name": "Agua",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "ml",
       "aliases": []
     },
@@ -26,6 +29,7 @@
       "id": "ingredient_ajo",
       "name": "Ajo",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -33,6 +37,7 @@
       "id": "ingredient_alubia_cocida",
       "name": "Alubia blanca cocida",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -40,6 +45,7 @@
       "id": "ingredient_alubia_seca",
       "name": "Alubia blanca seca",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -47,6 +53,7 @@
       "id": "ingredient_arroz_redondo",
       "name": "Arroz redondo",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -54,6 +61,7 @@
       "id": "ingredient_atun",
       "name": "Atún al natural",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -61,6 +69,7 @@
       "id": "ingredient_avena",
       "name": "Avena",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -68,6 +77,7 @@
       "id": "ingredient_berenjena",
       "name": "Berenjena",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -75,6 +85,7 @@
       "id": "ingredient_brocoli",
       "name": "Brócoli",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -82,6 +93,7 @@
       "id": "ingredient_caballa",
       "name": "Caballa en conserva",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -89,6 +101,7 @@
       "id": "ingredient_calabacin",
       "name": "Calabacín",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -96,6 +109,7 @@
       "id": "ingredient_calabaza",
       "name": "Calabaza",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -103,6 +117,7 @@
       "id": "ingredient_caldo",
       "name": "Caldo",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "ml",
       "aliases": []
     },
@@ -110,6 +125,7 @@
       "id": "ingredient_carne_cocido",
       "name": "Morcillo/carne para cocido",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -117,6 +133,7 @@
       "id": "ingredient_carne_picada",
       "name": "Carne picada",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -124,6 +141,7 @@
       "id": "ingredient_cebolla",
       "name": "Cebolla",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -131,6 +149,7 @@
       "id": "ingredient_champiñon",
       "name": "Champiñón",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -138,6 +157,7 @@
       "id": "ingredient_chistorra",
       "name": "Chistorra",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -145,6 +165,7 @@
       "id": "ingredient_chorizo",
       "name": "Chorizo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -152,6 +173,7 @@
       "id": "ingredient_coliflor",
       "name": "Coliflor",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -159,6 +181,7 @@
       "id": "ingredient_contramuslo_pollo",
       "name": "Contramuslo de pollo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -166,6 +189,7 @@
       "id": "ingredient_costilla_cerdo",
       "name": "Costilla de cerdo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -173,6 +197,7 @@
       "id": "ingredient_espinaca",
       "name": "Espinaca",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -180,6 +205,7 @@
       "id": "ingredient_fabes",
       "name": "Fabes",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -187,6 +213,7 @@
       "id": "ingredient_fideo",
       "name": "Fideo",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -194,6 +221,7 @@
       "id": "ingredient_fruta_variada",
       "name": "Fruta variada",
       "category": "frutas",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -201,6 +229,7 @@
       "id": "ingredient_garbanzo_cocido",
       "name": "Garbanzo cocido",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -208,6 +237,7 @@
       "id": "ingredient_garbanzo_seco",
       "name": "Garbanzo seco",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -215,6 +245,7 @@
       "id": "ingredient_harina_pan_rallado",
       "name": "Pan rallado",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -222,6 +253,7 @@
       "id": "ingredient_higaditos_pollo",
       "name": "Higaditos de pollo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -229,6 +261,7 @@
       "id": "ingredient_huesos_cocido",
       "name": "Huesos para cocido",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -236,6 +269,7 @@
       "id": "ingredient_huevo",
       "name": "Huevo",
       "category": "huevos",
+      "aisle": "Lácteos y huevos",
       "default_unit": "ud",
       "aliases": []
     },
@@ -243,6 +277,7 @@
       "id": "ingredient_jamon",
       "name": "Jamón",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -250,6 +285,7 @@
       "id": "ingredient_jamoncito_pollo",
       "name": "Jamoncito de pollo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -257,6 +293,7 @@
       "id": "ingredient_judia_verde",
       "name": "Judía verde",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -264,6 +301,7 @@
       "id": "ingredient_leche",
       "name": "Leche",
       "category": "lácteos",
+      "aisle": "Lácteos y huevos",
       "default_unit": "ml",
       "aliases": []
     },
@@ -271,6 +309,7 @@
       "id": "ingredient_lenteja_pardina",
       "name": "Lenteja pardina",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -278,6 +317,7 @@
       "id": "ingredient_limon",
       "name": "Limón",
       "category": "frutas",
+      "aisle": "Fruta y verdura",
       "default_unit": "ud",
       "aliases": []
     },
@@ -285,6 +325,7 @@
       "id": "ingredient_lomo_cerdo",
       "name": "Cinta de lomo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -292,6 +333,7 @@
       "id": "ingredient_magro_cerdo",
       "name": "Magro de cerdo",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -299,6 +341,7 @@
       "id": "ingredient_manzana",
       "name": "Manzana",
       "category": "frutas",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -306,6 +349,7 @@
       "id": "ingredient_masa_hojaldre",
       "name": "Masa de hojaldre/empanada",
       "category": "nevera",
+      "aisle": "Refrigerados",
       "default_unit": "ud",
       "aliases": []
     },
@@ -313,6 +357,7 @@
       "id": "ingredient_merluza",
       "name": "Merluza",
       "category": "pescados",
+      "aisle": "Pescadería y congelados",
       "default_unit": "g",
       "aliases": []
     },
@@ -320,6 +365,7 @@
       "id": "ingredient_morcilla",
       "name": "Morcilla",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -327,6 +373,7 @@
       "id": "ingredient_mostaza",
       "name": "Mostaza",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -334,6 +381,7 @@
       "id": "ingredient_nueces",
       "name": "Nueces",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -341,6 +389,7 @@
       "id": "ingredient_panceta",
       "name": "Panceta",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -348,6 +397,7 @@
       "id": "ingredient_pan_integral",
       "name": "Pan integral",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "g",
       "aliases": []
     },
@@ -355,6 +405,7 @@
       "id": "ingredient_patata",
       "name": "Patata",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -362,6 +413,7 @@
       "id": "ingredient_pepino",
       "name": "Pepino",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -369,6 +421,7 @@
       "id": "ingredient_pera",
       "name": "Pera",
       "category": "frutas",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -376,6 +429,7 @@
       "id": "ingredient_pimiento",
       "name": "Pimiento",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -383,6 +437,7 @@
       "id": "ingredient_platano",
       "name": "Plátano o banana",
       "category": "frutas",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -390,6 +445,7 @@
       "id": "ingredient_pollo",
       "name": "Pollo troceado",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -397,6 +453,7 @@
       "id": "ingredient_puerro",
       "name": "Puerro",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -404,6 +461,7 @@
       "id": "ingredient_queso",
       "name": "Queso semicurado o tierno",
       "category": "lácteos",
+      "aisle": "Lácteos y huevos",
       "default_unit": "g",
       "aliases": []
     },
@@ -411,6 +469,7 @@
       "id": "ingredient_queso_tetilla",
       "name": "Queso de tetilla",
       "category": "lácteos",
+      "aisle": "Lácteos y huevos",
       "default_unit": "g",
       "aliases": []
     },
@@ -418,6 +477,7 @@
       "id": "ingredient_salchicha_fresca",
       "name": "Salchicha fresca/longaniza",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -425,6 +485,7 @@
       "id": "ingredient_sobrasada",
       "name": "Sobrasada",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -432,6 +493,7 @@
       "id": "ingredient_tocino",
       "name": "Tocino",
       "category": "carnes",
+      "aisle": "Carnicería y charcutería",
       "default_unit": "g",
       "aliases": []
     },
@@ -439,6 +501,7 @@
       "id": "ingredient_tomate_fresco",
       "name": "Tomate fresco",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -446,6 +509,7 @@
       "id": "ingredient_tomate_triturado",
       "name": "Tomate triturado",
       "category": "conservas",
+      "aisle": "Conservas",
       "default_unit": "g",
       "aliases": []
     },
@@ -453,6 +517,7 @@
       "id": "ingredient_verdura_asada",
       "name": "Verdura asada preparada",
       "category": "comida_preparada",
+      "aisle": "Listos para comer",
       "default_unit": "g",
       "aliases": []
     },
@@ -460,6 +525,7 @@
       "id": "ingredient_zanahoria",
       "name": "Zanahoria",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -467,6 +533,7 @@
       "id": "ingredient_verdura_variada",
       "name": "Verdura variada",
       "category": "verduras",
+      "aisle": "Fruta y verdura",
       "default_unit": "g",
       "aliases": []
     },
@@ -474,6 +541,7 @@
       "id": "ingredient_vino_blanco",
       "name": "Vino blanco",
       "category": "despensa",
+      "aisle": "Despensa",
       "default_unit": "ml",
       "aliases": []
     },
@@ -481,6 +549,7 @@
       "id": "ingredient_yogur",
       "name": "Yogur natural",
       "category": "lácteos",
+      "aisle": "Lácteos y huevos",
       "default_unit": "g",
       "aliases": []
     }
