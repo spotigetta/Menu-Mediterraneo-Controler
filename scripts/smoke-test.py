@@ -1,4 +1,5 @@
 from pathlib import Path
+import base64
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
@@ -19,11 +20,16 @@ try:
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '.hero-today')))
     assert 'Mesa 21' in driver.title
     assert len(driver.find_elements(By.CSS_SELECTOR, '.nav-link')) == 10
+    assert driver.execute_async_script("const done=arguments[0]; navigator.serviceWorker.ready.then(r=>done(Boolean(r.active))).catch(()=>done(false));")
     driver.save_screenshot(str(artifacts / 'desktop-home.png'))
 
     driver.get('http://127.0.0.1:4173/#/calendario')
     wait.until(lambda d: len(d.find_elements(By.CSS_SELECTOR, '.day-card')) == 21)
     assert len(driver.find_elements(By.CSS_SELECTOR, '.day-card')) == 21
+    pdf = driver.execute_cdp_cmd('Page.printToPDF', {'landscape': True, 'printBackground': True, 'paperWidth': 11.69, 'paperHeight': 8.27, 'marginTop': .25, 'marginBottom': .25, 'marginLeft': .25, 'marginRight': .25})
+    pdf_bytes = base64.b64decode(pdf['data'])
+    assert len(pdf_bytes) > 100000
+    (artifacts / 'calendario-21-dias.pdf').write_bytes(pdf_bytes)
 
     driver.get('http://127.0.0.1:4173/#/recetas')
     wait.until(lambda d: len(d.find_elements(By.CSS_SELECTOR, '.recipe-card')) == 58)
@@ -51,6 +57,8 @@ try:
     driver.set_window_size(390, 844)
     driver.get('http://127.0.0.1:4173/#/inicio')
     wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.mobile-header')))
+    assert driver.execute_script("return Math.round(document.querySelector('main').getBoundingClientRect().left)") == 0
+    assert driver.execute_script("return getComputedStyle(document.querySelector('.mobile-header')).position") == 'fixed'
     driver.save_screenshot(str(artifacts / 'mobile-home.png'))
     severe = [x for x in driver.get_log('browser') if x['level'] == 'SEVERE' and 'favicon' not in x['message']]
     assert not severe, severe
