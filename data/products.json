@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-20T19:30:53.818Z",
+  "last_updated": "2026-09-21T10:48:44.520Z",
   "products": [
     {
       "product_id": "product_huevos_alipende_24",
@@ -13,13 +13,13 @@
       "unit_price": 2.63,
       "unit_price_unit": "docena",
       "catalog_url": "https://www.ahorramas.com/huevos-de-gallinas-sueltas-en-el-gallinero-alipende-24u-clase-m-31201.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 2.63,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwe8d12847/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw5abf3d3b/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg"
     },
     {
       "product_id": "product_arroz_alipende_1kg",
@@ -50,13 +50,13 @@
       "unit_price": 1.25,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/tomate-triturado-sin-gluten-categoria-extra-alipende-800-g-95858.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 1.25,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwdb120520/Assets/095858_C1C1/large/b/2/0/9/b209b726dd2f1d3aff57732caaabbdfa921d0980_095858_C1C1.JPG"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwb8113434/Assets/095858_C1C1/large/b/2/0/9/b209b726dd2f1d3aff57732caaabbdfa921d0980_095858_C1C1.JPG"
     },
     {
       "product_id": "product_lenteja_alipende_1kg",
@@ -69,13 +69,13 @@
       "unit_price": 1.85,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/lenteja-alipende-1kg-pardina-77272.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 1.85,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwd8db1379/Assets/077272_C1C1/large/e/c/b/5/ecb5b376e965e4746e6c850b045ef3fe266f9f3d_077272_C1C1.JPG"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwf1f828ae/Assets/077272_C1C1/large/e/c/b/5/ecb5b376e965e4746e6c850b045ef3fe266f9f3d_077272_C1C1.JPG"
     },
     {
       "product_id": "product_garbanzo_cocido_alipende_400",
@@ -106,13 +106,13 @@
       "unit_price": 1.88,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/alubia-blanca-cocida-alipende-400g-60127.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 1.88,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw0d14a09f/Assets/060127_C1C1/large/5/9/b/e/59bed1c708cbff86dc537816bb5923e4122b5a83_060127_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwca3054c9/Assets/060127_C1C1/large/5/9/b/e/59bed1c708cbff86dc537816bb5923e4122b5a83_060127_C1C1.jpg"
     },
     {
       "product_id": "product_atun_alipende_pack6",
@@ -125,13 +125,13 @@
       "unit_price": 0.7,
       "unit_price_unit": "lata",
       "catalog_url": "https://www.ahorramas.com/atun-claro-alipende-pack-6-al-natural-51289.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 0.7,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwb957d48a/Assets/051289_C1C1/large/2/9/6/4/296416ad69e6e986ac02b5fb6e4c2d89f95a6865_051289_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw79d16c5f/Assets/051289_C1C1/large/2/9/6/4/296416ad69e6e986ac02b5fb6e4c2d89f95a6865_051289_C1C1.jpg"
     },
     {
       "product_id": "product_yogur_griego_alipende_750",
@@ -144,13 +144,13 @@
       "unit_price": 1.93,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/yogur-estilo-griego-alipende-pack-6-natural-750g-84625.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 1.93,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw74ee3e3e/Assets/084625_C1C1/large/7/6/3/6/763635ebd5fdb592c05accddb9bed313235eebca_084625_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw925f30db/Assets/084625_C1C1/large/7/6/3/6/763635ebd5fdb592c05accddb9bed313235eebca_084625_C1C1.jpg"
     },
     {
       "product_id": "product_queso_semicurado_alipende_300",
@@ -163,13 +163,13 @@
       "unit_price": 9.7,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/queso-semicurado-cuna-alipende-300g-52952.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 9.7,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwa9062b43/Assets/052952_EIAh/large/6/5/9/c/659c2c3a3ca850dfe554665187fc776c00514226_052952_EIAh.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwa1c0c3c0/Assets/052952_EIAh/large/6/5/9/c/659c2c3a3ca850dfe554665187fc776c00514226_052952_EIAh.jpg"
     },
     {
       "product_id": "product_masa_hojaldre_alipende_pack2",
@@ -182,13 +182,13 @@
       "unit_price": 1.06,
       "unit_price_unit": "ud",
       "catalog_url": "https://www.ahorramas.com/masa-de-hojaldre-alipende-pack-2-rectangular-44450.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 1.06,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwb33e450d/Assets/044450_C1C1/large/e/e/c/d/eecdb54a1535d6e16366509e0811b464e2c2a29a_044450_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwa7b9aa9c/Assets/044450_C1C1/large/e/e/c/d/eecdb54a1535d6e16366509e0811b464e2c2a29a_044450_C1C1.jpg"
     },
     {
       "product_id": "product_merluza_congelada_600",
@@ -255,13 +255,13 @@
       "unit_price": 4,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/higaditos-de-pollo-470g-aproximadamente-60800.html",
-      "price_date": "2026-09-20",
+      "price_date": "2026-09-21",
       "price_status": "current",
       "target_price": 4,
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw6ce45047/Assets/060800_C1C1/large/e/5/4/9/e549cced9e39e5a93e689edfc6d65428cdfea500_60800_C1C1.JPG"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dw9e70e4d9/Assets/060800_C1C1/large/e/5/4/9/e549cced9e39e5a93e689edfc6d65428cdfea500_60800_C1C1.JPG"
     }
   ]
 }
