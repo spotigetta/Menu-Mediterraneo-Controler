@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-25T01:27:19.888Z",
+  "last_updated": "2026-11-25T15:44:23.485Z",
   "products": [
     {
       "product_id": "product_huevos_alipende_24",
@@ -19,7 +19,7 @@
       "promotion": null,
       "promotion_end_date": null,
       "source": "ahorramas_catalog_page",
-      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwad689b96/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg"
+      "image_url": "https://www.ahorramas.com/on/demandware.static/-/Sites-ahorramas-master/default/dwc1919d2a/Assets/031201_C1C1/large/1/6/0/6/1606fdf0c7c35653d6d25bc8845adabb9402c771_031201_C1C1.jpg"
     },
     {
       "product_id": "product_arroz_alipende_1kg",
@@ -251,7 +251,7 @@
       "name": "Higaditos de pollo",
       "package_size": 1,
       "package_unit": "kg",
-      "current_price": 1.87,
+      "current_price": 2.1,
       "unit_price": 4,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/higaditos-de-pollo-470g-aproximadamente-60800.html",
