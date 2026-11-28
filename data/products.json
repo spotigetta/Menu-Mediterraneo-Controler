@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-28T00:34:14.073Z",
+  "last_updated": "2026-11-28T14:17:47.111Z",
   "products": [
     {
       "product_id": "product_huevos_alipende_24",
@@ -65,7 +65,7 @@
       "name": "Lenteja pardina",
       "package_size": 1,
       "package_unit": "kg",
-      "current_price": 1.85,
+      "current_price": 1.75,
       "unit_price": 1.85,
       "unit_price_unit": "kg",
       "catalog_url": "https://www.ahorramas.com/lenteja-alipende-1kg-pardina-77272.html",
